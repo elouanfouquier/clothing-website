@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 640" role="img">
+<defs>
+<linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E7E3DA"/><stop offset="1" stop-color="#CFC7B7"/></linearGradient>
+<filter id="eg"><feTurbulence type="fractalNoise" baseFrequency=".8" numOctaves="3"/><feColorMatrix type="saturate" values="0"/></filter>
+</defs>
+<rect width="900" height="640" fill="url(#s)"/>
+<circle cx="612" cy="222" r="74" fill="#F3EADA" opacity=".55"/>
+<path d="M0 470 C180 400 300 476 450 452 C620 424 740 470 900 428 L900 640 L0 640 Z" fill="#2b271f" opacity=".13"/>
+<path d="M0 540 C200 496 340 556 520 528 C700 500 800 546 900 522 L900 640 L0 640 Z" fill="#2b271f" opacity=".18"/>
+<g stroke="#fff" stroke-opacity=".28" stroke-width="3" fill="none">
+<path d="M-20 336 C220 316 420 356 920 326"/><path d="M-20 380 C260 360 460 396 920 368"/>
+</g>
+<rect width="900" height="640" filter="url(#eg)" opacity=".06"/>
+</svg>

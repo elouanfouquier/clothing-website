@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1250" role="img">
+<defs>
+<linearGradient id="d" x1=".1" y1="0" x2=".9" y2="1"><stop offset="0" stop-color="#EAE4D9"/><stop offset="1" stop-color="#CBBEA8"/></linearGradient>
+<linearGradient id="f" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity=".26"/><stop offset=".5" stop-color="#241f18" stop-opacity=".1"/><stop offset="1" stop-color="#fff" stop-opacity=".2"/></linearGradient>
+<radialGradient id="v2" cx=".5" cy=".38" r=".82"><stop offset=".45" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#241f18" stop-opacity=".2"/></radialGradient>
+<filter id="eg"><feTurbulence type="fractalNoise" baseFrequency=".8" numOctaves="3"/><feColorMatrix type="saturate" values="0"/></filter>
+</defs>
+<rect width="1000" height="1250" fill="url(#d)"/>
+<g fill="url(#f)">
+<path d="M0 0 C200 416 250 625 0 1250 L333 1250 C200 833 400 416 250 0 Z"/>
+<path d="M500 0 C600 416 400 833 600 1250 L900 1250 C700 833 900 416 800 0 Z"/>
+</g>
+<g stroke="#fff" stroke-opacity=".2" stroke-width="2" fill="none">
+<path d="M0 833 C333 625 666 937 1000 750"/>
+<path d="M0 1000 C333 833 666 1125 1000 937"/>
+</g>
+<rect width="1000" height="1250" fill="url(#v2)"/>
+<rect width="1000" height="1250" filter="url(#eg)" opacity=".05"/>
+</svg>

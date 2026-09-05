@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" role="img">
+<defs>
+<linearGradient id="b" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E6E6E1"/><stop offset="1" stop-color="#DCD6CB"/></linearGradient>
+<radialGradient id="v" cx=".5" cy=".4" r=".8"><stop offset=".5" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#241f18" stop-opacity=".18"/></radialGradient>
+<filter id="eg"><feTurbulence type="fractalNoise" baseFrequency=".8" numOctaves="3"/><feColorMatrix type="saturate" values="0"/></filter>
+</defs>
+<rect width="900" height="1200" fill="url(#b)"/>
+<circle cx="662" cy="286" r="150" fill="#fff" opacity=".24"/>
+<ellipse cx="450" cy="1128" rx="200" ry="22" fill="#2b271f" opacity=".09"/>
+<g stroke="#26231C" stroke-opacity=".45" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round">
+  <circle cx="450" cy="252" r="58" fill="#D9CFC0"/>
+  <path d="M424 296 L424 392 L476 392 L476 296 Z" fill="#CBC1B1" stroke="none"/>
+  <path d="M366 872 L360 1116 L418 1116 L426 872 Z" fill="#CFC6B7"/>
+  <path d="M474 872 L482 1116 L540 1116 L534 872 Z" fill="#CFC6B7"/>
+  <path d="M360 356 L332 366 L316 668 L352 676 L372 392 Z" fill="#D9CFC0"/>
+  <path d="M540 356 L568 366 L584 668 L548 676 L528 392 Z" fill="#D9CFC0"/>
+  <path d="M392 344 C420 380 480 380 508 344 L560 392 L534 546 L604 1004 L296 1004 L366 546 L340 392 Z" fill="#8E8577"/>
+  <path d="M366 546 L534 546" fill="none" stroke-opacity=".35"/>
+</g>
+<rect width="900" height="1200" fill="url(#v)"/>
+<rect width="900" height="1200" filter="url(#eg)" opacity=".05"/>
+</svg>
