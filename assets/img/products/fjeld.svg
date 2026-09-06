@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E4E5E2"/><stop offset="1" stop-color="#E4E5E2" stop-opacity=".55"/></linearGradient>
+<radialGradient id="vig" cx=".5" cy=".42" r=".78"><stop offset=".55" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#2b271f" stop-opacity=".14"/></radialGradient>
+<filter id="gr"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="3"/><feColorMatrix type="saturate" values="0"/></filter>
+</defs>
+<rect width="800" height="1000" fill="#EFEBE4"/>
+<rect width="800" height="1000" fill="url(#bg)"/>
+<ellipse cx="400" cy="908" rx="212" ry="26" fill="#2b271f" opacity=".07"/>
+<g fill="#7E8A86" stroke="#26231C" stroke-opacity=".42" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round">
+<style>.d{fill:none;stroke:#26231C;stroke-opacity:.32;stroke-width:2}.btn{fill:#26231C;fill-opacity:.28;stroke:none}.belt{fill:#26231C;fill-opacity:.14}.strap{fill:none;stroke-width:11;stroke-opacity:.5}</style>
+<path d="M334 234 L250 266 L186 606 L250 628 L276 470 L276 792 L524 792 L524 470 L550 628 L614 606 L550 266 L466 234 L400 278 Z"/>
+<g class="d"><path d="M350 228 L400 278 L450 228"/><path d="M400 278 L400 792"/>
+<path d="M191 582 L254 604"/><path d="M609 582 L546 604"/><path d="M300 500 L358 500"/></g>
+<g class="btn"><circle cx="400" cy="356" r="7"/><circle cx="400" cy="432" r="7"/><circle cx="400" cy="508" r="7"/><circle cx="400" cy="584" r="7"/><circle cx="400" cy="660" r="7"/><circle cx="400" cy="736" r="7"/></g>
+</g>
+<rect width="800" height="1000" fill="url(#vig)"/>
+<rect width="800" height="1000" filter="url(#gr)" opacity=".05"/>
+</svg>

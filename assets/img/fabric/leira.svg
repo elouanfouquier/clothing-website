@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img">
+<defs>
+<pattern id="weave" width="16" height="16" patternUnits="userSpaceOnUse">
+<rect width="16" height="16" fill="#EAE5DC"/>
+<path d="M0 0 H16" stroke="#000" stroke-opacity=".07" stroke-width="5"/>
+<path d="M0 8 V24" stroke="#fff" stroke-opacity=".14" stroke-width="5"/>
+</pattern>
+<radialGradient id="lt" cx=".34" cy=".26" r=".85">
+<stop offset="0" stop-color="#fff" stop-opacity=".22"/><stop offset="1" stop-color="#241f18" stop-opacity=".22"/>
+</radialGradient>
+<filter id="fg"><feTurbulence type="fractalNoise" baseFrequency=".7" numOctaves="4"/><feColorMatrix type="saturate" values="0"/></filter>
+</defs>
+<rect width="800" height="1000" fill="url(#weave)"/>
+<g stroke="#000" stroke-opacity=".05" fill="none" stroke-width="26">
+<path d="M-40 240 C220 180 520 320 860 250"/><path d="M-40 560 C240 500 500 640 860 570"/>
+</g>
+<rect width="800" height="1000" fill="url(#lt)"/>
+<rect width="800" height="1000" filter="url(#fg)" opacity=".08"/>
+</svg>

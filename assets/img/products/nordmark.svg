@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E8E4DB"/><stop offset="1" stop-color="#E8E4DB" stop-opacity=".55"/></linearGradient>
+<radialGradient id="vig" cx=".5" cy=".42" r=".78"><stop offset=".55" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#2b271f" stop-opacity=".14"/></radialGradient>
+<filter id="gr"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="3"/><feColorMatrix type="saturate" values="0"/></filter>
+</defs>
+<rect width="800" height="1000" fill="#EFEBE4"/>
+<rect width="800" height="1000" fill="url(#bg)"/>
+<ellipse cx="400" cy="908" rx="212" ry="26" fill="#2b271f" opacity=".07"/>
+<g fill="#C2B49C" stroke="#26231C" stroke-opacity=".42" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round">
+<style>.d{fill:none;stroke:#26231C;stroke-opacity:.32;stroke-width:2}.btn{fill:#26231C;fill-opacity:.28;stroke:none}.belt{fill:#26231C;fill-opacity:.14}.strap{fill:none;stroke-width:11;stroke-opacity:.5}</style>
+<path d="M296 188 L372 176 L394 736 L318 750 Z"/>
+<path d="M408 176 L484 188 L462 750 L386 736 Z"/>
+<g class="d"><path d="M318 750 L322 802"/><path d="M342 746 L346 798"/><path d="M366 742 L370 794"/><path d="M390 738 L394 790"/>
+<path d="M414 740 L410 792"/><path d="M438 744 L434 796"/><path d="M462 748 L458 800"/></g>
+</g>
+<rect width="800" height="1000" fill="url(#vig)"/>
+<rect width="800" height="1000" filter="url(#gr)" opacity=".05"/>
+</svg>

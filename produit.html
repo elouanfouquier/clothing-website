@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Produit — NORDHEM</title>
+<meta name="description" content="Fiche produit NORDHEM : matière, atelier, entretien et tailles disponibles.">
+<meta name="theme-color" content="#f7f5f1">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Produit — NORDHEM">
+<meta property="og:description" content="Fiche produit NORDHEM : matière, atelier, entretien et tailles disponibles.">
+<meta property="og:image" content="assets/img/editorial/hero.svg">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Aller au contenu</a>
+
+<div class="announce"><p>Livraison offerte dès 200 € — Retours libres sous 30 jours</p></div>
+
+<header class="header" data-header>
+  <div class="wrap header__inner">
+    <nav class="nav nav--left" aria-label="Navigation principale">
+      <a href="boutique.html" aria-current="page">Boutique</a>
+      <a href="boutique.html?c=mailles">Mailles</a>
+      <a href="maison.html">La maison</a>
+    </nav>
+    <button type="button" class="icon-btn burger" data-menu-open aria-label="Ouvrir le menu">Menu</button>
+    <a class="brand" href="index.html">Nordhem</a>
+    <nav class="nav nav--right" aria-label="Navigation secondaire">
+      <button type="button" class="icon-btn" data-cart-open aria-label="Ouvrir le panier">
+        Panier<span class="cart-btn__count" data-cart-count>0</span>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<nav class="mobile-nav" data-mobile-nav aria-hidden="true" aria-label="Menu mobile">
+  <button type="button" class="mobile-nav__close" data-menu-close>Fermer</button>
+  <a href="index.html">Accueil</a>
+  <a href="boutique.html">Boutique</a>
+  <a href="boutique.html?c=mailles">Mailles</a>
+  <a href="boutique.html?c=manteaux">Manteaux</a>
+  <a href="maison.html">La maison</a>
+</nav>
+
+<main id="main">
+
+<div class="wrap">
+  <nav class="crumbs" aria-label="Fil d'Ariane">
+    <a href="index.html">Accueil</a> / <a href="boutique.html">Boutique</a> / <span data-crumb>Produit</span>
+  </nav>
+  <div class="pdp" data-pdp></div>
+</div>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div>
+        <p class="eyebrow">À porter avec</p>
+        <h2>Le reste du vestiaire</h2>
+      </div>
+      <a class="link" href="boutique.html">Tout voir</a>
+    </div>
+    <div class="grid" data-related></div>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__top">
+    <div class="footer__brand">
+      <span class="brand">Nordhem</span>
+      <p>Un vestiaire réduit, pensé pour durer. Conçu à Copenhague, fabriqué en Europe, réparé à vie.</p>
+    </div>
+    <div>
+      <h4>Boutique</h4>
+      <ul>
+        <li><a href="boutique.html">Tout le vestiaire</a></li>
+        <li><a href="boutique.html?c=mailles">Mailles</a></li>
+        <li><a href="boutique.html?c=manteaux">Manteaux</a></li>
+        <li><a href="boutique.html?c=accessoires">Accessoires</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>La maison</h4>
+      <ul>
+        <li><a href="maison.html">Notre histoire</a></li>
+        <li><a href="maison.html#matieres">Matières</a></li>
+        <li><a href="maison.html#atelier">Atelier de réparation</a></li>
+        <li><a href="index.html#journal">Journal</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Aide</h4>
+      <ul>
+        <li><a href="boutique.html">Livraison et retours</a></li>
+        <li><a href="boutique.html">Guide des tailles</a></li>
+        <li><a href="boutique.html">Entretien</a></li>
+        <li><a href="boutique.html">Nous écrire</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap footer__bottom">
+    <span>© <span data-year>2026</span> Nordhem. Tous droits réservés.</span>
+    <ul>
+      <li><a href="#">Mentions légales</a></li>
+      <li><a href="#">Confidentialité</a></li>
+      <li><a href="#">Instagram</a></li>
+    </ul>
+  </div>
+</footer>
+
+<div class="overlay" data-overlay></div>
+
+<aside class="cart" data-cart aria-hidden="true" aria-label="Panier">
+  <div class="cart__head">
+    <span class="cart__title">Panier</span>
+    <button type="button" class="cart__close" data-cart-close>Fermer</button>
+  </div>
+  <div class="cart__body" data-cart-body></div>
+  <div class="cart__foot" data-cart-foot hidden>
+    <div class="cart__row"><span>Sous-total</span><span data-cart-sub>0 €</span></div>
+    <div class="cart__row"><span>Livraison</span><span data-cart-ship>—</span></div>
+    <div class="cart__row cart__row--total"><span>Total</span><span data-cart-total>0 €</span></div>
+    <button type="button" class="btn btn--block" data-checkout>Passer commande</button>
+    <p class="cart__note" data-cart-hint></p>
+  </div>
+</aside>
+
+<div class="toast" data-toast role="status" aria-live="polite"></div>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
